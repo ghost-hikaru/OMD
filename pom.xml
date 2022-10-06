@@ -121,19 +121,19 @@
 		            <version>3.14.0</version>
 		        </plugin>
 		
-				<!--
+			
 				<plugin>
 	                <groupId>org.apache.maven.plugins</groupId>
 	                <artifactId>maven-changelog-plugin</artifactId> 
-            	</plugin>-->
+            	</plugin>
 				
 		 </plugins>
 	</reporting>
-		<!--
+		
 		<scm>
 	        <connection>scm:git:git://github.com/ghost-hikaru/OMD.git</connection>
 	        <url>https://github.com/ghost-hikaru/OMD</url>
 
-    	</scm>-->
+    	</scm>
 
 </project>
