@@ -6,5 +6,4 @@ public class NovelleFct {
     System.out.println("Bonjour");	
     System.out.println("conflit");
   }
-
 }
