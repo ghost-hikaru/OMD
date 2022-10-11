@@ -21,7 +21,16 @@
 	    <artifactId>itextpdf</artifactId>
 	    <version>5.5.13.1</version>
 	</dependency>
-  </dependencies>
+	  
+	  <dependency>
+	      <groupId>groupId</groupId>
+	      <artifactId>artifactId</artifactId>
+	      <classifier>tests</classifier>
+	      <type>test-jar</type>
+	      <version>version</version>
+	      <scope>test</scope>
+	    </dependency>
+	  </dependencies>
 
 	<build>
 	    <plugins>
@@ -69,6 +78,19 @@
 					</execution>
 				</executions>
 			</plugin>
+		    
+		    	<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<version>3.3.0</version>
+				<executions>
+				  <execution>
+				    <goals>
+				      <goal>test-jar</goal>
+				    </goals>
+				  </execution>
+				</executions>
+		     	 </plugin>
 			
 
 		   </plugins>
